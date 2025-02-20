@@ -18,7 +18,7 @@ app.use(methodOverride("_method"));
 
 mongoose
   .connect(
-    "mongodb+srv://devabdullah:DX3E20fxXAP9Cc2p@cluster0.87swi.mongodb.net/all-data?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://test:1lSGcOsCiZGs28W2@cluster0.6zwbe.mongodb.net/all-data?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     app.listen(port, () => {
